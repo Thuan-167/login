@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:text="Welcome to Dynao"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Very Awesome You have just saved me big time of design, My app will be inspired by this ,, watch out for  itVery Awesome You have just saved me big time of design, My app will be inspired by this ,, watch out for  it"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LEARN MORE"/>
+            <Button
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="join to club"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:hint="USERNAME" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:hint="PASSWORD" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyle"
+            android:drawableRight="@drawable/ic_baseline_send_24"/>
+    </LinearLayout>
+</LinearLayout>
